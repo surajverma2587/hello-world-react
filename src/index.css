@@ -1,3 +1,19 @@
 body {
   margin: 0;
 }
+
+.introduction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-img {
+  width: 200px;
+}
+
+@media screen and (max-width: 590px) {
+  .introduction-container {
+    flex-direction: column;
+  }
+}
