@@ -16,4 +16,8 @@ body {
   .introduction-container {
     flex-direction: column;
   }
+
+  .image-item {
+    text-align: center;
+  }
 }
