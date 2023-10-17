@@ -5,8 +5,8 @@ export const App = () => {
   return (
     <div>
       <Introduction />
-      <List />
-      <List />
+      <List items={["foo", "bar"]} title="Interests" />
+      <List items={["biz", "baz"]} title="Bands" />
     </div>
   );
 };
